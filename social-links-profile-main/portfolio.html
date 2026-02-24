@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+
+<body>
+    <div id="top"></div>
+    <nav class="mainNav">
+    <div class="leftSide">
+        <a href="#top" class="logo">
+            <img src="assets/images/Emblem_Logo_for_Mohammad_Okour-removebg-preview.png" alt="My logo">
+        </a>
+    </div>
+
+    <button class="menu-toggle" id="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <ul class="rightSide" id="nav-links">
+        <li><a href="#top">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="index.html">Contact</a></li>
+    </ul>
+</nav>
+
+    <section class="hero">
+    <div class="hero-content">
+        <h1>Mohammad Okour</h1>
+        <p>Frontend Developer</p>
+        <a href="#" class="hero-btn">Contact Me</a>
+    </div>
+    </section>
+
+
+<div class="side-nav section-hidden">
+  <a href="#top">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</div>
+
+
+
+    <section id="about" class="about section-hidden">
+    <h2>About Me</h2>
+        <p>
+            I am a passionate web developer currently practicing frontend development.
+            My goal is to become a professional full-stack developer.
+            I enjoy learning new technologies and building creative UI designs.
+        </p>
+    </section>
+
+
+    <section id="skills" class="skills section-hidden">
+        <h2>My Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Responsive Design</div>
+            <div class="skill">Git Basics</div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section-hidden">
+        <h2>My Projects</h2>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+                <img src="assets/images/exampleWeb.jpg">
+                <h3>Portfolio Website</h3>
+                <p>Personal portfolio practice project.</p>
+                <a href="#">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/images/landDesign.jpg">
+                <h3>Landing Page Design</h3>
+                <p>Modern business landing page UI.</p>
+                <a href="#">View Project</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-hidden">
+        <h2>Contact Me</h2>
+
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+
+            <button type="submit" onclick="showmessage()">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 Mohammad Okour. All Rights Reserved.</p>
+    </footer>
+
+
+</body>
+<script src="action.js"></script>
+</html>
